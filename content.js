@@ -1,0 +1,179 @@
+window.RECORRIDO = {
+  "intro": [
+    "Al empezar la carrera entendía el diseño únicamente como el acto en sí. Yo me siento interpelado por el diseño de varios modos, pero el más directo creo que fue el hecho de haber sido profesor asistente de Visualización de Datos y que, gracias a mi buen desempeño, los profesores me hayan elegido, en particular teniendo una visión personal de que siempre se me había dado más lo técnico, lo relacionado con las ciencias duras. Mi planteo era asistir a los alumnos, pero entre las diversas charlas y reuniones que tuve con el profesor titular logré entender que el diseño no es solo el acto en sí, en cualquiera de sus variantes, sino que también hay una cultura alrededor. En especial, su experiencia y la de otros colegas que dictaban DataViz, relacionada con los medios de comunicación (en particular diarios nacionales), me mostraron cómo era trabajar con distintas áreas y cómo las personas que no venían del diseño los veían a ellos. Incorporé muchas nociones asociadas a la política, al rol del diseñador y al impacto directo que puede tener en la percepción del público, como el concepto de cherry-picking. Básicamente, la repercusión de las pequeñas decisiones que toma uno en su pantalla puede mover mucho la opinión popular.",
+    "De un modo más indirecto, considero que llevar a cabo un proyecto de negocios también tiene un componente inventivo traído del diseño. El caso en el que más lo puedo poner en evidencia fue cuando me pidieron que diseñara una valorización de una patente. En el marco de mi intercambio académico participé en un proyecto para explotar una patente relacionada con la industria química, en particular con la extracción de químicos nutracéuticos. Entonces, teniendo ya el proceso de los inventores, debía diseñar por sobre su propiedad intelectual. Una frase que me quedó del texto de Norman y Verganti fue: “All ideas have predecessors and are always based on previous work”. Me reconfortó pensar que el valor no estaba en arrancar tabula rasa, sino en que podía construir sobre algo que ya existía. La distinción es que no se trataba de una innovación incremental sobre su proceso de extracción. Eso ya estaba cerrado y definido; debía idear una alternativa aplicable que generara ingresos. Pensándolo en línea con el desarrollo de ese proyecto, lo que yo debía hacer era una innovación radical. Lo planteado fue una solución de tipo Joint Venture (con alguna empresa, sin pérdida de generalidad, que utilizara esos químicos en algún proceso) y el diferencial, la innovación radical en sí, fue construir un sistema de tokenización de los componentes extraídos. El contexto de esta iniciativa fue hacer Open Innovation, que, si bien el texto de Norman y Verganti no desarrolla, sí cita a su creador, H. Chesbrough, a quien tuve la suerte de presentarle mi idea.",
+    "Al comienzo de la cursada, cuando se hablaba de diseño de futuros y del ejercicio de mirar hacia adelante, recuerdo que Germán dijo que para algunos era un ejercicio antinatural y que podía causar cierta incomodidad imaginarse a uno mismo en ese tiempo posterior y pensar que las acciones de uno tienen efectivamente una repercusión en el porvenir. Mientras se dictaba la clase, me sentí identificado con la persona que se estaba describiendo. No tanto por el diseño de futuro despersonalizado, sino por dónde iba a estar parado yo en un par de meses. Estando en mi último semestre, estaba muy nervioso con la idea de tener solamente un trabajo part-time como profesor asistente y con qué iba a ser de mí al terminar la carrera. Tomando las palabras de Germán y llevándolas a mi caso puntual, accioné y tomé el puesto de investigador asistente full-time en el laboratorio de IA de la facultad."
+  ],
+  "pages": [
+    {
+      "id": "1338",
+      "file": "IMG_1338.jpeg",
+      "tone": "#ddd0ad",
+      "crop": [
+        5.5,
+        37.2,
+        92.5,
+        56.5
+      ],
+      "outline": "8% 12%, 11% 11%, 89.5% 10.2%, 92% 51%, 98% 93.3%, 54% 92.7%, 6% 93.7%, 5.5% 82%, 7.2% 25%",
+      "text": [
+        "Otro momento de cambio que identifico es en situaciones en mi trabajo de investigación. Auditando reglas de DataViz con Martín (mi colega), hicimos una votación double blind para no condicionarnos entre nosotros. Esto se relaciona con lo que plantea Kolko en Exposing the Magic of Design “even though frames define what counts as data, they themselves actually shape the data”. En nuestro caso, el double blind no elimina ese frame propio, pero sí evita que el de uno condicione al otro. Luego discutíamos el porqué de nuestra elección, con la condición de poder cambiar el voto. Encontré una relación y una diferencia con el frame analysis de Schön: tomar conciencia del frame de uno te hace darte cuenta de que hay otras formas de entender la misma situación. Pero en este caso los frames no chocan solamente con el problema, sino también entre nosotros. Ahí apareció algo que ya me había llamado la atención al leer el texto: el reframing pasa a ser una negociación entre los integrantes del proyecto.",
+        "Curioseando sin una intención definida encontré el informe de lanzamiento de Jev, modelo de IA decisional tipado de tipo sistema 1. Tomé con pinzas (algo que ya me había llamado la atención al leer el capítulo 3 de How to Future y que anote en mis opiniones personales: ser más crítico con los reportes oficiales y white papers, entendiendo que también reflejan las prioridades e intereses de quien los publica) las promesas de esta tendencia gracias a todo el AI hype del mundillo de los modelos. Lo probé junto con su versión open source y en definitiva es un game changer."
+      ],
+      "hotspots": [
+        [
+          "framing",
+          27,
+          44.1,
+          13,
+          3
+        ],
+        [
+          "frame-analysis",
+          41,
+          52.8,
+          23,
+          3.2
+        ],
+        [
+          "jev",
+          21,
+          68.7,
+          9,
+          3.5
+        ]
+      ]
+    },
+    {
+      "id": "1339",
+      "file": "IMG_1339.jpeg",
+      "tone": "#ddd2b3",
+      "crop": [
+        6.5,
+        9,
+        91,
+        84
+      ],
+      "outline": "8.6% 9.4%, 93% 9%, 96.8% 90.9%, 58% 92.7%, 8.5% 92.2%, 6.5% 78%, 7.8% 24%",
+      "text": [
+        "En paralelo, nos estaba faltando una distinción, un diferencial ante los otros papers, para chequear si la visualización cumplía la regla. En el área este es un problema muy estudiado. El problema era que Jev, nativamente, no analiza imágenes, por lo que su utilidad para un proyecto centrado justamente en visualizaciones era prácticamente nula. De hecho, durante varios días no fue más que una noticia interesante que había quedado dando vueltas. Inconscientemente, probablemente estaba haciendo algo bastante parecido a lo que el capítulo 3 describe como unstructured collection: tener información que no fue buscada para resolver una pregunta puntual y después encontrar la manera de llevar ese material a una “sufficiently structured form for good sense-making”, hasta convertirlo en útil. En mi caso, eso fue entender qué parte de Jev sí me servía y pensar cómo integrarlo justamente en lo que es realmente bueno: contestar preguntas. Al sumarlo a un VLM local que sí podía interpretar la visualización, esa señal que inicialmente no tenía una aplicación directa terminó siendo una parte fundamental del sistema. Llevándolo directamente al texto, el giro fue que, mirando una tecnología que no tenía una correlación directa con lo que quería resolver, pude rescatar una capacidad puntual, reorganizarla de otro modo y volverla útil.",
+        "El miércoles, dando los avances del proyecto, mostrando las future wheels, matriz de incertidumbre y storyboards, hablé a modo de refresh sobre nuestro proyecto. Mostré en la segunda slide los Meta Ray-Ban Display y el pitch en sí estuvo centrado en AI wearables, el cómputo local o cloud, su relación con la privacidad y soberanía de los datos, la interacción anticipada y a demanda y los agentes personales, los cuales actúan por nosotros. Horas más tarde, a las 20 hs del mismo miércoles, aconteció Meta Connect,"
+      ],
+      "hotspots": [
+        [
+          "collection",
+          38,
+          33.5,
+          44,
+          3.5
+        ],
+        [
+          "slide",
+          39,
+          57.8,
+          18,
+          3.7
+        ]
+      ]
+    },
+    {
+      "id": "1340",
+      "file": "IMG_1340.jpeg",
+      "tone": "#e0d6bd",
+      "crop": [
+        6.8,
+        12.5,
+        88.5,
+        79
+      ],
+      "outline": "11.6% 12.7%, 89.4% 12.8%, 95% 91.5%, 60% 90.6%, 10% 90.6%, 7% 90%, 6.8% 69%, 10.6% 21%",
+      "text": [
+        "en el cual se lanzan los VR glasses, anteojos que muestran en el espacio real proyecciones de realidad mixta y cuya interacción es por haptics. Se escribe en el aire y se navega con gestos de las manos, eye tracking y voz, nunca con la pantalla como interfaz principal. Se lanzó Muse, tu asistente personal que decide, trabaja y compra por voz. La relación y las consecuencias de primer y segundo orden de nuestro proyecto y lo presentado son directas y apabullantes. Me dio mucha satisfacción “haberle pegado” a esta visión sobre el futuro de la HCI. Agradezco que los ejercicios planteados por la cátedra sean útiles, aplicables y no solo teóricos. La recolección de señales y entrevistar a Agustin Gravano (director del laboratorio en el cual trabajo y persona que admiro profesionalmente)"
+      ],
+      "hotspots": [
+        [
+          "vr",
+          75,
+          24.2,
+          15,
+          3
+        ],
+        [
+          "haptics",
+          23,
+          34.5,
+          15,
+          3.3
+        ],
+        [
+          "tracking",
+          23,
+          40.7,
+          32,
+          3.3
+        ],
+        [
+          "muse",
+          44,
+          46.3,
+          11,
+          3
+        ],
+        [
+          "hci",
+          72,
+          67.7,
+          9,
+          3.1
+        ]
+      ]
+    },
+    {
+      "id": "1342",
+      "file": "IMG_1342.jpeg",
+      "tone": "#e3dcc6",
+      "crop": [
+        7,
+        6.5,
+        90.5,
+        82
+      ],
+      "outline": "8.4% 7.1%, 92% 6.5%, 97.4% 88.1%, 89% 87.6%, 30% 88.5%, 8.5% 87.6%, 7% 80%, 7.5% 19%",
+      "text": [
+        "fueron actividades muy amenas que quizá en el momento no me armaron un panorama muy claro sobre el futuro de la HCI, pero a medida que fuimos avanzando con las actividades se materializó más la visión. Creo que por eso la satisfacción no vino solamente del resultado. Sommers plantea que el valor está más en el pensamiento y el proceso que en acertar una tendencia puntual. Literalmente en la primera página lee: “the focus of this book is on thinking, not on trends”. Coincido aunque también me separo un poco: personalmente sí me dio mucho placer “haberle pegado” de una forma tan directa. No porque crea que el ejercicio consista en adivinar el futuro, sino porque ver materializarse algo tan cercano funcionó para mí como una validación de que esa visión de futuro, construida a través de las actividades, estaba bien encaminada."
+      ],
+      "hotspots": []
+    },
+    {
+      "id": "1343",
+      "file": "IMG_1343.jpeg",
+      "tone": "#e7e4d9",
+      "crop": [
+        4.7,
+        8,
+        86.5,
+        89
+      ],
+      "outline": "10.5% 9.3%, 14% 9.5%, 87% 8%, 88.5% 10%, 89.2% 31%, 88.1% 56%, 89.8% 68%, 88.5% 95.8%, 86% 95.5%, 66% 97%, 37% 96.5%, 31% 95.2%, 6.3% 95.3%, 5.5% 92%, 6% 87%, 4.7% 84%, 5.7% 82%, 5.7% 66%, 6.5% 34%, 7% 15%",
+      "text": [
+        "Pienso que, por haber transcurrido la primera mitad de la cursada, mi concepción del diseño se amplió, en particular la de sistemas y futuros. Creo que ya mencioné en varias ocasiones cómo y qué lugar ocupa en mi vida y actividad actual. La pregunta interesante es cómo veo al diseño formando parte de mi trayecto de acá en adelante. Probablemente me vea más interpelado si tomo el camino de estudiar en el exterior, IVIA como una opción plausible. Alguna maestría más exacta requeriría una arista más sistemática o procedural. Trabajar freelance seguramente me conectaría más con Figma, que asocio con ideación, maquetado y bocetado, tareas que me resultan creativas. Me estoy dando cuenta de que me autocontesté la pregunta diseñando futuros: pasé de que mirar hacia adelante me estresase a verlo como un modo de listar los distintos rumbos y darme cuenta de que tenía opciones. Cursar esta materia, que originalmente debería haber cursado en tercer año, en la última instancia de la carrera terminó siendo una coincidencia bastante afortunada."
+      ],
+      "hotspots": [
+        [
+          "paths",
+          46,
+          49.7,
+          25,
+          2.7
+        ],
+        [
+          "fortunate",
+          59,
+          58.6,
+          19,
+          3
+        ]
+      ]
+    }
+  ]
+};

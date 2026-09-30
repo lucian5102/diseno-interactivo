@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ddd0ad">
+  <title>Boceto / Texto final — Lucian</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M5 7L26 5L27 25L6 27Z' fill='%23ddd0ad' stroke='%23704988' stroke-width='2'/%3E%3Cpath d='M10 20L22 19' stroke='%23704988' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=20260929-3">
+  <script src="content.js?v=20260929-3" defer></script>
+  <script src="media.js?v=20260929-3" defer></script>
+  <script src="app.js?v=20260929-3" defer></script>
+</head>
+<body>
+  <header class="toolbar">
+    <div class="mode-control" role="group" aria-label="Modo de lectura">
+      <button type="button" data-mode="sketch" aria-pressed="true">Boceto</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" data-mode="text" aria-pressed="false">Texto final</button>
+    </div>
+  </header>
+  <div class="timeline" aria-hidden="true"><span>MAS RECIENTE</span><i><b></b></i></div>
+  <nav class="page-nav" aria-label="Hojas"></nav>
+  <main id="reading"></main>
+  <svg id="projection" aria-hidden="true"><path/><path/><path/><path/></svg>
+  <aside id="panel" class="panel" aria-label="Proyección" hidden>
+    <div class="panel-bar"><span id="panel-label"></span><div><button id="replay" aria-label="Repetir animación" hidden>↺</button><button id="close" aria-label="Cerrar proyección">×</button></div></div>
+    <div id="panel-content" aria-live="polite"></div>
+  </aside>
+  <noscript><a href="assets/texto-final.txt">Texto final</a><img src="assets/IMG_1338.jpeg" alt="Primer boceto manuscrito" style="max-width:100%"></noscript>
+</body>
+</html>
